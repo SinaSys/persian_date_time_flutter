@@ -34,12 +34,23 @@ class _HomeState extends State<Home> {
 
     print("Now ${getDate.now}"); //1399-07-27 04:45:43 678
 
+    print("=================================================================");
+
 
     print(getDate.year);
     print(getDate.month);
     print(getDate.day);
+    print(getDate.monthname);
 
-    print(getDate.monthname); // نام ماه
+    print("=================================================================");
+
+    PersianDate getSeparateDate= PersianDate(gregorian: "2020-10-18 12:00:00");
+
+    print(getSeparateDate.year);
+    print(getSeparateDate.month);
+    print(getSeparateDate.day);
+    print(getSeparateDate.monthname);
+    print(getSeparateDate.weekdayname);
 
 
 
