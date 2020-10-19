@@ -41,6 +41,7 @@ class _HomeState extends State<Home> {
     print(getDate.month);
     print(getDate.day);
     print(getDate.monthname);
+    print(getDate.weekdayname);
 
     print("=================================================================");
 
